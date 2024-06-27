@@ -10,7 +10,7 @@ const bodyParser = require('body-parser')
  */
 const MYSQL_DB_HOST = 'localhost'
 const MYSQL_DB_USER = 'root'
-const MYSQL_DB_PASSWORD = '12345'
+const MYSQL_DB_PASSWORD = 'megatravel123'
 const MYSQL_DB_NAME = 'chat'
 const MYSQL_DB_PORT = '3306'
 
@@ -96,7 +96,7 @@ const main = async () => {
 
     const adapterProvider = createProvider(MetaProvider, {
         jwtToken: 'jwtToken',
-        numberId: 'numberId',
+        numberId: '59171415130',
         verifyToken: 'megtravel',
         version: 'v16.0',
     })
