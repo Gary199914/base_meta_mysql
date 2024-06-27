@@ -95,7 +95,7 @@ const main = async () => {
     const adapterFlow = createFlow([flowPrincipal])
 
     const adapterProvider = createProvider(MetaProvider, {
-        jwtToken: 'jwtToken',
+        jwtToken: 'EAAQeCOzU3RMBO9qP8ZCpdOZAMZCTRcAzCkoZALiLp1CHP5JqAJ4KgJ7khLN0lmqvJE5Cwa6w4u72lVmVpswwgKhcCmkYi4U3r3OL4FA27QU8IAjmRG4Dtqw4KDQiW5p0kf90ebZADJ0iyMoB02cBZCWZAuSjxzKYGSIXdaL53lEGzJokPZBoZA6q0TuqYFSb7UFeY0kKIOHYZB6PeSyofAiD1c2yTfMZCYwAu4Ya04ZD',
         numberId: '59171415130',
         verifyToken: 'megtravel',
         version: 'v16.0',
