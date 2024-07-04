@@ -10,7 +10,7 @@ const bodyParser = require('body-parser')
  */
 const MYSQL_DB_HOST = 'localhost'
 const MYSQL_DB_USER = 'root'
-const MYSQL_DB_PASSWORD = 'megatravel123'
+const MYSQL_DB_PASSWORD = '12345'
 const MYSQL_DB_NAME = 'chat'
 const MYSQL_DB_PORT = '3306'
 
@@ -95,8 +95,8 @@ const main = async () => {
     const adapterFlow = createFlow([flowPrincipal])
 
     const adapterProvider = createProvider(MetaProvider, {
-        jwtToken: 'EAAQeCOzU3RMBO9qP8ZCpdOZAMZCTRcAzCkoZALiLp1CHP5JqAJ4KgJ7khLN0lmqvJE5Cwa6w4u72lVmVpswwgKhcCmkYi4U3r3OL4FA27QU8IAjmRG4Dtqw4KDQiW5p0kf90ebZADJ0iyMoB02cBZCWZAuSjxzKYGSIXdaL53lEGzJokPZBoZA6q0TuqYFSb7UFeY0kKIOHYZB6PeSyofAiD1c2yTfMZCYwAu4Ya04ZD',
-        numberId: '59171415130',
+        jwtToken: 'EAARz55IUqI0BO9MjlHSZB1nv4256FkqfHO87ZC5BRtNPqnEccqjPg6KNKLeRDZALDZBRgPlfg9ICsbIRTwM6pR3d9j5QuXNSyuCd7NMJDw7iL1XedmiKmfL3Vy2Le3GhY8LZAHBUjgOmJ7CKmZCnqvZC5uVW6PitpUcan2DZA6MXMvDEdbBj7drRsXWGDj5JVKXQOCy2NR4ifbIGPClmpMAZD',
+        numberId: '331442173395707',
         verifyToken: 'megtravel',
         version: 'v16.0',
     })
